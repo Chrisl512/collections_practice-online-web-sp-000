@@ -24,7 +24,7 @@ def kesha_maker(array)
   new_array = []
 
   array.each do |name|
-    new_var = name[2] = str[2].upcase
+    new_var = name[2] = name[2].upcase
 
     new_array << new_var
 
