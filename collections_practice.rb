@@ -50,7 +50,7 @@ def add_s(array)
     if element == "feet"
       return array
     else
-      new_array << element + "s"
+      new_array << "#{element + "s"}"
     end
   end
  new_array
