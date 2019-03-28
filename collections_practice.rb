@@ -23,7 +23,10 @@ end
 def kesha_maker(array)
   new_array = []
 
-  array.each_with_index {|o, i| string[o]=replacments[i]}
+  array.zip(string_replace).each do |pos, str|
+  string[pos.to_i] = str
+  puts string
+end
 
   end
   new_array
