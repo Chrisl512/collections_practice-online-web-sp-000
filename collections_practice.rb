@@ -26,9 +26,9 @@ def kesha_maker(array)
 
   array.zip(string_replace).each do |name, str|
 
-  string[name.to_i] = str
+  new_array[name.to_i] = str
 binding.pry
-  puts string
+  puts new_array
 end
 
   new_array
