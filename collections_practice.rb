@@ -22,13 +22,11 @@ end
 
 def kesha_maker(array)
   new_array = []
-  string_replace = ["$"]
+    array.each do |name|
+    new_name = string.new(name)
+    new_name[2] = "$"
 
-  array.zip(string_replace).each do |name, str|
-
-  new_array[name.to_i] = str
-binding.pry
-  puts new_array
+  
 end
 
   new_array
