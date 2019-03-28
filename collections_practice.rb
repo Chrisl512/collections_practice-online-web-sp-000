@@ -23,7 +23,7 @@ end
 def kesha_maker(array)
   new_array = []
     array.each do |name|
-    new_name = string.new(name)
+    new_name = String.new(name)
     new_name[2] = "$"
     new_array << new_name
     end
