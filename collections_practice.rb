@@ -25,8 +25,9 @@ def kesha_maker(array)
   string_replace = ["$"]
 
   array.zip(string_replace).each do |pos, str|
+    binding.pry
   string[pos.to_i] = str
-  
+
   puts string
 end
 
