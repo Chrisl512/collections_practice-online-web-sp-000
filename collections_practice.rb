@@ -49,7 +49,7 @@ def add_s(array)
   array.each_with_index.collect do |element|
     if element == array[1]
       new_array << element
-      binding.pry
+      
     else
       new_array << "#{element + "s"}"
 
