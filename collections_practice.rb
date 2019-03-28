@@ -26,8 +26,6 @@ def kesha_maker(array)
     new_name = String.new(name)
     new_name[2] = "$"
     new_array << new_name
-
     end
-    binding.pry
   new_array
 end
