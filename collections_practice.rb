@@ -24,8 +24,8 @@ def kesha_maker(array)
   new_array = []
   string_replace = ["$"]
 
-  array.zip(string_replace).each do |2, "$"|
-  string[2.to_i] = "$"
+  array.zip(string_replace).each do |pos, str|
+  string[pos.to_i] = str
   puts string
 end
 
