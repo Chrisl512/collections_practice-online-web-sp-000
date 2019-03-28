@@ -27,7 +27,7 @@ def kesha_maker(array)
     new_var = name
 
     new_array << new_var.sub(2, "$")
-binding.pry
+
   end
   new_array
 end
