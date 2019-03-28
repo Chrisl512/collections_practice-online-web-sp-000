@@ -24,7 +24,7 @@ def kesha_maker(array)
   new_array = []
 
   array.each do |name|
-    new_var = name.chars[2]
+    new_var = name
    binding.pry
     new_array << new_var.sub(2, "$")
 
