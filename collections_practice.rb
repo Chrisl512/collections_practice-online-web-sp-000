@@ -47,7 +47,7 @@ end
 def add_s(array)
   new_array = []
   array.each_with_index.collect{|element, index| }
-    if element.exclude?(p."feet")
+    if element.exclude?("feet")
     else
       new_array << element + "s"
     end
