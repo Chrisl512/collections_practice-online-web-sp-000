@@ -25,9 +25,9 @@ def kesha_maker(array)
 
   array.each do |name|
     new_var = name
-   binding.pry
-    new_array << new_var.sub(2, "$")
 
+    new_array << new_var.sub(2, "$")
+binding.pry
   end
   new_array
 end
