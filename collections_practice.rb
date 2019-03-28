@@ -55,5 +55,5 @@ def add_s(array)
     end
   end
  new_array
- binding.pry
+ 
 end
