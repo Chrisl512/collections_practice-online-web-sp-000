@@ -49,10 +49,8 @@ def add_s(array)
   array.each_with_index.collect do |element|
     if element == array[1]
       new_array << element
-      
     else
       new_array << "#{element + "s"}"
-
     end
   end
  new_array
