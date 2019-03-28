@@ -29,6 +29,5 @@ def kesha_maker(array)
   puts string
 end
 
-  end
   new_array
 end
