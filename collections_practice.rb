@@ -51,9 +51,9 @@ def add_s(array)
       new_array << "#{element}"
     else
       new_array << "#{element + "s"}"
-
+binding.pry
     end
   end
  new_array
- 
+
 end
