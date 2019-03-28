@@ -49,6 +49,6 @@ def add_s(array)
     if element.exclude?(p."feet")
     else
       new_array<< element + "s"
-       
+
   end
 end
