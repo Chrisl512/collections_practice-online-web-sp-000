@@ -32,7 +32,7 @@ end
 
 def find_a(array)
   new_array = []
-    array("a").find do |str|
+    array("a").select do |str|
       if str.start_with?("a")
         new_array << str
       end
