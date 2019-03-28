@@ -26,6 +26,7 @@ def kesha_maker(array)
 
   array.zip(string_replace).each do |pos, str|
   string[pos.to_i] = str
+  
   puts string
 end
 
